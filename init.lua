@@ -1,6 +1,7 @@
 require("config.options")
 require("config.keymaps")
 require("config.autocmds")
+require("config.bigfile").setup_all()
 
 require("plugins.fidget")
 require("plugins.whichkey")
